@@ -1,0 +1,2 @@
+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
+git remote add origin https://github.com/ElEnciso/4IV10_Encio_Galaz_Mauro_Alfredo_PSW.git
