@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 7</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="seventh">
+        <h3>Septimo Problema</h3>
+        <p>
+          Leer 2 numeros; si son iguales que los multiplique, si el primero es mayor que el segundo que haga una potencia si el segundo es mayor que el primero que los divida
+        </p>
+        <br />
+        <div class="seventh-answer">
+          <form name="input"  method = "get" >
+            <label >Primer número</label>
+            <br>
+            <input type="text"  id="numeroUno" onkeypress="return seventhI(event)">
+            <br>
+            <label >Segundo número</label>
+            <br>
+            <input type="text" id="numeroDos" onkeypress="return seventhI(event)">
+            <br>
+            <br>
+            <input type="button" value="Realizar operacion" onclick="return seventh()">
+            <input type="button" value="Borrar" onclick="return seventhV()">
+          </form>
+        </div>
+      </div>
+      <div class="back-container">
+        <a href="../index.html">Main Page</a>
+        <br>
+        <a href="./main.html">Pagina de Ejercicios</a>
+      </div>
+      <script src="./js/validacion.js"></script>
+</body>
+</html>

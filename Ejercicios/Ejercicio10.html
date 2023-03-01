@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="tenth">
+        <h3>Decimo Problema</h3>
+        <p>
+          Calcular la utilidad que un trabajador recibe en el reparto anual de
+          utilidades si este se le asigna como un porcentaje de su salario mensual
+          que depende de su antigüedad en la empresa de acuerdo con la siguiente
+          tabla:
+          <table>
+            <tr>
+              <th>Tiempo</th>
+              <th>Utilidad</th>
+            </tr>
+            <tr>
+              <td>Menos de 1 año</td>
+              <td>5% del salario</td>
+            </tr>
+            <tr>
+              <td>1 año o más y menos de 2 años</td>
+              <td>7% del salario</td>
+            </tr>
+            <tr>
+              <td>2 años o más y menos de 5 años</td>
+              <td>10% del salario</td>
+              <tr>
+                <td>5 años o más y menos de 10 años</td>
+                <td>15% del salario</td>
+              </tr>
+              <tr>
+                <td>10 años o más</td>
+                <td>20% del salario</td>
+          </table>
+        </p>
+        <br />
+        <div class="tenth-answer">
+          <form  method="get" onkeypress="return tenthI(event)">
+          <label >Ingresa tu salario</label>
+          <br>
+          <input type="text" name="salario" id="lastment">
+          <br>
+          <label >Ingresa los años que haz trabajado</label>
+          <br>
+          <input type="text" name="años" id="years">
+          <br>
+          <br>
+          <input type="button" value="Calcular utilidad" onclick="return tenth()">
+          <input type="button" value="Borrar datos" onclick="return tenthV()">
+          </form>
+          <br>
+        </div>
+      </div><div class="back-container">
+        <a href="../index.html">Main Page</a>
+        <br>
+        <a href="./main.html">Pagina de Ejercicios</a>
+      </div>
+      <script src="./js/validacion.js"></script>
+</body>
+</html>

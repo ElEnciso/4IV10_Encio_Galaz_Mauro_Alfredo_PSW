@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">    
+    <title>Ejercicio 1</title>
+  </head>
+
+  <body>
+    <div class="first">
+      <h3>Primer Problema</h3>
+      <p>
+        Suponga que un individuo desea invertir su capital en un banco y desea
+        saber cuanto dinero ganara despues de un mes si el banco paga a razon de
+        8% mensual siendo el maximo de meses de 36.
+        </p>
+      <br />
+      <div class="first-answer" >
+        <form name="input" method = "get" >
+        <label >Capital a invertir (mxn)</label>
+        <br>
+        <input type="text" id="inversion" onkeypress="return inputNumeros(event)">
+        <br>
+        <label >Duracion de la inversion (Maximo 36 meses)</label>
+        <br>
+        <input type="text" id="meses"  onkeypress="return inputNumeros(event)">  
+        <br>
+        <input type="button" value="Calcular inversion" onclick="return funcionUno()">
+        <input type="button" value="Borrar datos" onclick="return vaciar()">
+        </form>
+      </div>
+    <div class="back-container">
+      <a href="../index.html">Main Page</a>
+      <br>
+      <a href="./main.html">Pagina de Ejercicios</a>
+    </div>
+    <script src="./js/validacion.js"></script>
+  </body>
+</html>

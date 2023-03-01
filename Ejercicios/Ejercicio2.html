@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="second">
+        <h3>Segundo Problema</h3>
+        <p>
+          Un vendedor recibe un sueldo base mas un 10% extra por comisión de sus ventas las cuales son 5 que realiza durante un mes asi mismo se le hace un descuento del 12% por concepto de impuesto para lo cual desea saber el total que recibira como cobro.
+        </p>
+        <br />
+        <div class="second-answer">
+          <form name="input" method = "get" >
+          <label >Sueldo base (por venta realizada)</label>
+          <br>
+          <input type="text" id="pagoV" onkeypress="return inputNumeros(event)">
+          <br>
+          <br>
+          <input type="button" value="Calcular salario" onclick="return secondF()">
+          <input type="button" value="Borrar datos" onclick="return secondV()">
+          </form>
+        </div>
+    </div>
+    <div class="back-container">
+      <a href="../index.html">Main Page</a>
+      <br>
+      <a href="./main.html">Pagina de Ejercicios</a>
+    </div>
+    <script src="./js/validacion.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 5</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="fifth">
+        <h3>Quinto Problema</h3>
+        <p>
+            Un maestro desea saber el porcentaje de hombres y porcentaje de mujeres de un grupo de estudiantes, dicho grupo solamente puede tener elementos de hombres con un porcentaje, elementos de mujeres con un porcentaje a partir de ahi obtener el 100%
+        </p>
+        <br />
+        <form method="get" name="porcentajes">
+          <label >Ingresa el numero de hombres</label>
+          <br>
+          <input type="text" id='hombres' onkeypress="return inputNumeros(event)">
+          <br>
+          <label >Ingresa el numero de mujeres</label>
+          <br>
+          <input type="text" id='mujeres' onkeypress="return inputNumeros(event)">
+          <br>
+          <br>
+          <input type="button" value="Calcular porcentajes" onclick="return fifthF()">
+          <input type="button" value="Borrar datos" onclick="return fifthV()">
+        </form>
+      </div>
+    </div>
+    <div class="back-container">
+        <a href="../index.html">Main Page</a>
+        <br>
+        <a href="./main.html">Pagina de Ejercicios</a>
+      </div>
+      <script src="./js/validacion.js"></script>
+</body>
+</html>
