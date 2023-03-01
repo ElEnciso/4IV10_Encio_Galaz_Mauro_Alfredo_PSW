@@ -4,6 +4,29 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(45, 42, 42);
     color: white;
+    margin: 25px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+}
+
+.container input{
+    margin: 5px;
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .regreso a{
+    color: brown;
+    display: flex;
+    font-size: 15px;
+    text-decoration: none;
 }
