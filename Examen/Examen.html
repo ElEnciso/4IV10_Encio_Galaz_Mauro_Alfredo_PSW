@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen </title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="main">
+    <h1>Examen de PSW</h1>
+    <br>
+    <p>
+        Realizar un HTML con interés compuesto de una playa bajo préstamo de lo que
+        sea,con limite y porcentaje de 30% anual por 3 años, y se calcula con deserciones
+        y limites y un desplegado de una "table" de inversión, interés y monto.
+    </p>
+    <form id="formulario">
+        <div class="input1">
+            <span class="input-group-text">$</span>
+            <input type="number" min="0" max="10000" oninput="this.value = Math.abs(this.value)" class="form-control" aria-label="Amount (to the nearest dollar)" 
+            id="monto_inicial" placeholder="Préstamo inicial / Monto inicial" onkeydown="no_punto(event)" onpaste="return false">
+            <span class="input-group-text">.00</span>
+        </div>
+        <div class="boton1">
+            <button class="boton1" type="submit">Terminar</button>
+        </div>
+    </form>
+    <br>
+    <table class="tabla" id="table">
+        <thead>
+            <tr class="table-secondary">
+                <th scope="col">Numero</th>
+                <th scope="col">Saldo</th>
+                <th scope="col">Pago</th>
+                <th scope="col">Principal</th>
+                <th scope="col">Interés</th>
+                <th scope="col">Saldo Final</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+        </tbody>
+    </table>
+    <script src="./js/validacion.js"></script>
+</body>
+</html>
